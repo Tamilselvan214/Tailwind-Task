@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <nav class="bg-white shadow sticky top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="text-xl font-bold text-blue-600">TamilSelvan G</div>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-600">About</a></li>
+          <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="text-center py-16 bg-white">
+      <h1 class="text-4xl font-bold text-blue-600">TamilSelvan G</h1>
+      <p class="text-lg text-gray-600">Web Developer & Designer</p>
+      <p class="mt-4 italic text-gray-500">"Code. Create. Inspire."</p>
+    </section>
+    <section id="about" class="py-16 bg-gray-50 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-blue-600 mb-8">
+          About Me
+        </h2>
+        <p class="mb-4">
+          I'm a web developer passionate about building responsive and
+          interactive websites. I love solving problems and bringing ideas to
+          life using code.
+        </p>
+        <p class="mb-8">
+          With a strong foundation in HTML, CSS, JavaScript, and Tailwind CSS, I
+          focus on clean UI and good user experience.
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-xl font-semibold text-blue-500 mb-2">Skills</h3>
+            <ul class="list-disc pl-5 text-gray-700">
+              <li>HTML</li>
+              <li>CSS & Tailwind</li>
+              <li>JavaScript</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-blue-500 mb-2">Education</h3>
+            <ul class="text-gray-700 space-y-2">
+              <li>
+                <strong>B.E. Computer Science and Engineering</strong> -
+                Velammal Institue of Technology(2022 - 2026)
+              </li>
+              <li><strong>High School</strong> - M.A.K group of Schools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="py-16 px-4 bg-white">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-blue-600 mb-10">
+          Projects
+        </h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div
+            class="bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105"
+          >
+            <h3 class="text-xl font-semibold mb-2">Smart Delivery System</h3>
+            <p class="text-sm text-gray-600 mb-2">
+              Optimizes delivery routes using Google Maps API.
+            </p>
+            <a href="#" class="text-blue-600 hover:underline">GitHub Link</a>
+          </div>
+          <div
+            class="bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105"
+          >
+            <h3 class="text-xl font-semibold mb-2">Task Tracker</h3>
+            <p class="text-sm text-gray-600 mb-2">
+              A to-do app with localStorage & clean UI.
+            </p>
+            <a href="#" class="text-blue-600 hover:underline">GitHub Link</a>
+          </div>
+          <div
+            class="bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105"
+          >
+            <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+            <p class="text-sm text-gray-600 mb-2">
+              A responsive portfolio using only Tailwind CSS.
+            </p>
+            <a href="#" class="text-blue-600 hover:underline">GitHub Link</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-16 bg-gray-50 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-blue-600 mb-8">
+          Contact Me
+        </h2>
+        <form class="grid gap-4">
+          <input
+            type="text"
+            placeholder="Name"
+            class="p-3 rounded border border-gray-300"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            class="p-3 rounded border border-gray-300"
+            required
+          />
+          <textarea
+            placeholder="Your Message"
+            class="p-3 rounded border border-gray-300 h-32"
+            required
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-white text-center p-4 shadow">
+      <p class="text-sm text-gray-500">
+        &copy; 2025 TamilSelvan G. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
